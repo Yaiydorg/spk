@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#1E7B39</color>
+    <color name="locasibtn">#ee5b38</color>
+    <color name="contin">#39796b</color>
+</resources>
