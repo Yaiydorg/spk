@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "944935690027",
+    "firebase_url": "https://applications-52be1-default-rtdb.firebaseio.com",
+    "project_id": "applications-52be1",
+    "storage_bucket": "applications-52be1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944935690027:android:c1bbd472f7dcd933b06f6e",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATeqNAyy5RdCHZLn0pff5Qgptk7m9BBms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944935690027:android:9c31ea0b0815e40db06f6e",
+        "android_client_info": {
+          "package_name": "com.example.permohonan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATeqNAyy5RdCHZLn0pff5Qgptk7m9BBms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944935690027:android:8fd66bb1cf1d9292b06f6e",
+        "android_client_info": {
+          "package_name": "com.example.spk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATeqNAyy5RdCHZLn0pff5Qgptk7m9BBms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944935690027:android:d9628c2e4330c769b06f6e",
+        "android_client_info": {
+          "package_name": "com.example.spk_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATeqNAyy5RdCHZLn0pff5Qgptk7m9BBms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944935690027:android:a1db41a4f0699c5ab06f6e",
+        "android_client_info": {
+          "package_name": "com.example.spk_register"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATeqNAyy5RdCHZLn0pff5Qgptk7m9BBms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingPage3"
+    android:background="@drawable/bgrn">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1E7B39"
+        android:alpha="0.7"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_above="@+id/carview"
+        android:padding="28dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spklogo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPK"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="32sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="28dp"
+        android:layout_marginBottom="-20dp"
+        android:id="@+id/carview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terima kasih"
+                android:textColor="#1E7B39"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sila sahkan perkara di bawah dan teruskan"
+                android:alpha="0.7"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_system_security_update_good_24"/>
+                <TextView
+                    android:id="@+id/r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Islam:" />
+                <TextView
+                    android:id="@+id/l3islam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="test"
+                    android:layout_marginLeft="10dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_system_security_update_good_24"/>
+                <TextView
+                    android:id="@+id/bk3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BERKAWIN:" />
+                <TextView
+                    android:id="@+id/bj3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="test"
+                    android:layout_marginLeft="10dp"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sila pilih satu pilihan"
+                android:textStyle="bold"
+                android:textColor="#0870A7"
+                android:alpha="0.7"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adakah awak sudah berkahwin"
+                    android:textStyle="bold"
+                    android:alpha="0.7"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/readname"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textAlignment="viewEnd"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="atau masih bujang?"
+                    android:textStyle="bold"
+                    android:alpha="0.7"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/readstatus"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textAlignment="viewEnd"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/islam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BERKAHWIN"
+                    android:background="#000"
+                    android:textColor="#fff"/>
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/BUJANG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LAHIR ISLAM"
+                    android:background="#000"
+                    android:textColor="#fff"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="155dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/baseline_arrow_back_24"/>
+                <ImageView
+                    android:layout_width="155dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/baseline_arrow_forward_24"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
+
+

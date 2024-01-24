@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Landinjava"
+    android:background="@drawable/bgrn">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1E7B39"
+        android:alpha="0.7"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_above="@+id/carview"
+        android:padding="28dp">
+
+        <ImageView
+            android:id="@+id/imgf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spklogo"/>
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPK"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="32sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="28dp"
+        android:layout_marginBottom="-20dp"
+        android:id="@+id/carview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp">
+            <TextView
+                android:id="@+id/test2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salamat Datang"
+                android:textColor="#1E7B39"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:alpha="0.7"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sila pilih satu pilihan"
+                android:textStyle="bold"
+                android:textColor="#0870A7"
+                android:alpha="0.7"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/lahirIslam"
+                    android:layout_width="98dp"
+                    android:layout_height="25dp"
+                    android:background="#000"
+                    android:text="LAHIR ISLAM"
+                    android:textSize="5sp"
+                    android:textColor="#fff" />
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/lahirIslam1"
+                    android:layout_width="98dp"
+                    android:layout_height="25dp"
+                    android:background="#FF5757"
+                    android:text="BERKAWIN"
+                    android:textSize="5sp"
+                    android:textColor="#fff" />
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/lahirIslam2"
+                    android:layout_width="98dp"
+                    android:layout_height="25dp"
+                    android:background="#FF5757"
+                    android:text="MUALLAF"
+                    android:textSize="5sp"
+                    android:textColor="#fff" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adakah anda seorang Muslim yang dilahirkan"
+                    android:textStyle="bold"
+                    android:alpha="0.7"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/readname"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textAlignment="viewEnd"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="atau seorang mualaf?"
+                    android:textStyle="bold"
+                    android:alpha="0.7"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="test"
+                    android:id="@+id/readstatus"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="another"
+                    android:id="@+id/output" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

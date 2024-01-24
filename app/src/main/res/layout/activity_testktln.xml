@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Testktln"
+    android:background="@drawable/bgrn">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1E7B39"
+        android:alpha="0.7"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_above="@+id/carview"
+        android:padding="28dp">
+        <ImageView
+            android:id="@+id/imgf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spklogo"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="28dp"
+        android:layout_marginBottom="-20dp"
+        android:id="@+id/carview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/test2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salamat Datang"
+                android:textColor="@color/green"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:text="Bismillah: "
+                android:textStyle="bold"
+                android:textColor="#F5743F"/>
+
+            <TextView
+                android:id="@+id/readstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sila pilih semua yang berkaitan dengan anda"
+                android:textStyle="bold"
+                android:alpha="0.7"/>
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/muallahirtext"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textColor="#fff"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/berkawintext"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" android:textColor="#fff"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/pasangantext"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textColor="#fff"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/wargamastext"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textColor="#fff"
+                    android:text=""/>
+
+                <TextView
+                    android:id="@+id/badalutext"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textColor="#fff"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/okutext"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textColor="#fff"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/familyheadtext"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textColor="#fff"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/dependenttext"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textColor="#fff"
+                    android:text=""/>
+
+            </LinearLayout>
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:padding="16dp"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="vertical"
+                    android:background="#fff">
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="2"
+                        android:background="#fff"
+                        android:columnOrderPreserved="false"
+                        android:rowCount="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/muallafimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/muallff" />
+
+                                <TextView
+                                    android:id="@+id/muallafselect"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="-33dp"
+                                    android:textColor="#fff"
+                                    android:gravity="center"
+                                    android:text=""
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/lahirimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/lairs" />
+
+                                <TextView
+                                    android:id="@+id/lahirselect"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginTop="-30dp"
+                                    android:textColor="#fff"
+                                    android:textSize="20sp"
+                                    android:text="" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/berkawinimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/brkawin" />
+
+                                <TextView
+                                    android:id="@+id/berkawinselect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="-42dp"
+                                    android:textColor="#fff"
+                                    android:textSize="20sp"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/wargamasimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/warms" />
+
+                                <TextView
+                                    android:id="@+id/wargamasselect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="-45dp"
+                                    android:gravity="center"
+                                    android:text=""
+                                    android:textColor="#fff"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </GridLayout>
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="2"
+                        android:background="#fff"
+                        android:columnOrderPreserved="false"
+                        android:rowCount="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/ibutingalimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/ibtngal" />
+
+                                <TextView
+                                    android:id="@+id/ibutungalselect"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="-33dp"
+                                    android:textColor="#fff"
+                                    android:gravity="center"
+                                    android:text=""
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/bapatungalimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/bptngal" />
+
+                                <TextView
+                                    android:id="@+id/bapatungalselect"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginTop="-30dp"
+                                    android:textColor="#fff"
+                                    android:text="" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/dudaimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/dud" />
+
+                                <TextView
+                                    android:id="@+id/dudaselect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginTop="-45dp"
+                                    android:textColor="#F5743F"
+                                    android:textSize="20sp"
+                                    android:text=""/>
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/baluimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/ballu" />
+
+                                <TextView
+                                    android:id="@+id/baluselect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginTop="-45dp"
+                                    android:textColor="#F5743F"
+                                    android:textSize="20sp"
+                                    android:text="" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </GridLayout>
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="2"
+                        android:background="#fff"
+                        android:columnOrderPreserved="false"
+                        android:rowCount="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/okuimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/oku" />
+
+                                <TextView
+                                    android:id="@+id/okuselect"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="-33dp"
+                                    android:textColor="#fff"
+                                    android:gravity="center"
+                                    android:text=""
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/famhead"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/famheadsick" />
+
+                                <TextView
+                                    android:id="@+id/familyhdselect"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginTop="-30dp"
+                                    android:textColor="#fff"
+                                    android:text="" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/dependentimage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/dependantill" />
+
+                                <TextView
+                                    android:id="@+id/dependentilselect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:textSize="15sp"
+                                    android:text="" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="18dp">
+
+                                <ImageView
+                                    android:id="@+id/dependentimag"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="130dp"
+                                    android:src="@drawable/termsick" />
+
+                                <TextView
+                                android:id="@+id/dependentilselec"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                    android:textSize="10sp"
+                                android:textColor="#000"
+                                android:gravity="center"
+                                android:text="Sila semak pilihan anda" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </GridLayout>
+
+
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/lahirIslam"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:text="Masuk"
+                    android:textSize="15sp"
+                    android:textColor="#fff"
+                    app:cornerRadius="32dp"/>
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"/>
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+
+                    android:layout_width="98dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/stspklogo"/>
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"/>
+
+                <ImageView
+
+                    android:layout_width="98dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/spklogo"/>
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"/>
+
+                <ImageView
+
+                    android:layout_width="98dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/alklogo"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
